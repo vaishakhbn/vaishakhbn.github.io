@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><title>Ask Shibs Anything</title></head>
+<link rel="stylesheet" type="text/css" href="button.css">
+
+<body>
+	<div class= "center">
+	<h1>Ask Shibani anything!</h1>
+<input id="question"  type="text" placeholder="Type your question here..." style="font-size:30px;line-height:70px;height:45px;">
+	
+<button class="btn" onclick="myFunction()">Ask!</button>
+
+
+	<blockquote><p id="demo"></div></blockquote>
+	
+
+</div>
+
+<script>
+function myFunction() {
+	var items =  ['I dont know', 'I have not thought about it', 'Relationships are for people with low IQ', 'Hello','2','3','4','5','6','7','8','9'];
+	var result =items[Math.floor(Math.random() * items.length)];
+    document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+</body>
+</html>

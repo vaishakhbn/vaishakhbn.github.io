@@ -6,7 +6,7 @@
 <body>
 	<div class= "center">
 	<h1>Ask Shibani anything!</h1>
-<input id="question"  type="text" placeholder="Type your question here..." style="font-size:30px;line-height:70px;height:45px;">
+<input id="question"  type="text" placeholder="Type your question here..." style="font-size:20px;line-height:70px;height:45px;">
 	
 <button class="btn" onclick="myFunction()">Ask!</button>
 
@@ -18,7 +18,7 @@
 
 <script>
 function myFunction() {
-	var items =  ['I dont know', 'I have not thought about it', 'Relationships are for people with low IQ', 'Shaant babaa!','You! Chupp!!','C# is awesome','I like APL','jj','6','7','8','9'];
+	var items =  ['I dont know', 'I have not thought about it', 'Relationships are for people with low IQ', 'Shaant babaa!','You! Chupp!!','That situation does not apply to me','Your theories are ridiculous','But, you are so oblivious all the time','I am not running for AGS President','I want to pull your cheeks','You are such a kid','He does not have cheeks','So much drama. * rolls her eyes *','Really? * starts a round of tickle torture *','I did not say that! *jumps up and down*','*ignores you and starts dancing* ','I am at Starbucks','I am not going to lie','You always interrupt at the wrong time! ','I do NOT swear.','You are such a girl Abhishek!','I just love the green toad concept!','I wont change my phone because I bought it','You think you are so cool.','You are such a girl Britney'];
 	var result =items[Math.floor(Math.random() * items.length)];
     document.getElementById("demo").innerHTML = result;
 }

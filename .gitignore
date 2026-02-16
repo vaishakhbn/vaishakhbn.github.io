@@ -1,0 +1,16 @@
+# Jekyll build output
+_site/
+
+# Jekyll cache and metadata
+.jekyll-cache/
+.jekyll-metadata
+
+# macOS
+.DS_Store
+
+# Local-only docs
+AGENTS.md
+BLOGGING.md
+
+# Local Ruby version manager file
+.ruby-version

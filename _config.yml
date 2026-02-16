@@ -1,0 +1,5 @@
+title: Vaishakh Baragur
+description: Personal website and blog
+markdown: kramdown
+permalink: /blog/:title/
+timezone: America/Los_Angeles
